@@ -1,0 +1,23 @@
+﻿<Window x:Class="krestik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:krestik"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="_1" Content="" HorizontalAlignment="Left" Height="69" Margin="131,54,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_2" Content="" HorizontalAlignment="Left" Height="69" Margin="205,54,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_4" Content="" HorizontalAlignment="Left" Height="69" Margin="131,128,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_5" Content="" HorizontalAlignment="Left" Height="69" Margin="205,128,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" ScrollViewer.VerticalScrollBarVisibility="Disabled" IsEnabled="False"/>
+        <Button x:Name="_3" Content="" HorizontalAlignment="Left" Height="69" Margin="279,54,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_6" Content="" HorizontalAlignment="Left" Height="69" Margin="279,128,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_7" Content="" HorizontalAlignment="Left" Height="69" Margin="131,202,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_8" Content="" HorizontalAlignment="Left" Height="69" Margin="205,202,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="_9" Content="" HorizontalAlignment="Left" Height="69" Margin="279,202,0,0" VerticalAlignment="Top" Width="69" Click="prosto_click" IsEnabled="False"/>
+        <Button x:Name="nachalo" Content="Начать игру" HorizontalAlignment="Left" Height="54" Margin="131,276,0,0" VerticalAlignment="Top" Width="217" Click="igra"/>
+        <TextBox x:Name="itogg" HorizontalAlignment="Left" Height="55" Margin="416,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103" IsEnabled="False"/>
+
+    </Grid>
+</Window>
